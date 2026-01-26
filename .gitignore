@@ -1,0 +1,5 @@
+# example .gitignore
+node_modules/
+dist/
+.env
+.vscode/
