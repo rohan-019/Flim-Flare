@@ -3,6 +3,8 @@ import NavBar from './components/NavBar'
 import { Route, Routes, useLocation } from 'react-router-dom'
 import Home from './pages/Home'
 import Movies from './pages/Movies'
+import Releases from './pages/Releases'
+import Theaters from './pages/Theaters'
 import MovieDetails from './pages/MovieDetails'
 import SeatLayout from './pages/SeatLayout'
 import MyBookings from './pages/MyBookings'
@@ -35,6 +37,8 @@ function App() {
         <Route path='/login' element={<LoginPage />} />
         <Route path='/reset-password' element={<ResetPassword />} />
         <Route path='/movies' element={<Movies />} />
+        <Route path='/releases' element={<Releases />} />
+        <Route path ='/theaters' element={<Theaters />} />
         <Route path='/movies/:id' element={<MovieDetails />} />
         <Route path='/movies/:id/:date' element={<SeatLayout />} />
         <Route path='/my-bookings' element={<MyBookings />} />

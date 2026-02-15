@@ -44,8 +44,8 @@ function NavBar() {
         <XIcon onClick={()=>setIsOpen(!isOpen)} className='md:hidden absolute top-6 right-6 w-6 h-6 cursor-pointer'/>
         <Link to="/" onClick={()=>{scrollTo(0,0);setIsOpen(!isOpen)}} className='text-sm'>Home</Link>
         <Link to="/movies" onClick={()=>{scrollTo(0,0);setIsOpen(!isOpen)}} className='text-sm'>Movies</Link>
-        <Link to="/" onClick={()=>{scrollTo(0,0);setIsOpen(!isOpen)}} className='text-sm'>Theaters</Link>
-        <Link to="/" onClick={()=>{scrollTo(0,0);setIsOpen(!isOpen)}} className='text-sm'>Releases</Link>
+        <Link to="/Theaters" onClick={()=>{scrollTo(0,0);setIsOpen(!isOpen)}} className='text-sm'>Theaters</Link>
+        <Link to="/releases" onClick={()=>{scrollTo(0,0);setIsOpen(!isOpen)}} className='text-sm'>Releases</Link>
         <Link to="/my-bookings" onClick={()=>{scrollTo(0,0);setIsOpen(!isOpen)}} className='text-sm'>Bookings</Link>
         <Link to="/ask-ai" onClick={()=>{scrollTo(0,0);setIsOpen(!isOpen)}} className='flex items-center gap-1'>
           <SearchIcon className='color-primary w-4 h-4 mb-1' strokeWidth={2}/>

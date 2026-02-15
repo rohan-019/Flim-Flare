@@ -7,7 +7,7 @@ import SplashCursor from '../components/SplashCursor'
 function Home() {
   return (
     <>
-      {/* <SplashCursor/> */}
+      { <SplashCursor/> }
       <HeroSections/>
       <FeaturedSection/>
       <TrailerSection/>
